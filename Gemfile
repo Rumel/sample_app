@@ -11,6 +11,14 @@ group :development, :test do
     gem 'thin'
     gem 'better_errors'
     gem 'binding_of_caller'
+    gem 'guard-rspec', '1.2.1'
+    gem 'rb-inotify', :require => false
+    gem 'rb-fsevent', :require => false
+    gem 'rb-fchange', :require => false
+    gem 'win32console'
+    gem 'rb-notifu'
+    gem 'guard-spork' #, '1.2.0'
+    gem 'spork' #, '0.9.2'
 end
 
 # Gems used only for assets and not required
