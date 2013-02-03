@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-    before_filter :signed_in_user, only: [:edit, :update]
+    before_filter :signed_in_user, only: [:edit, :update, :index]
     before_filter :correct_user, only: [:edit, :update]
 
     def new
@@ -22,6 +22,10 @@ class UsersController < ApplicationController
     end
 
     def edit
+    end
+
+    def index
+        @users = User.all
     end
 
     def update
