@@ -18,7 +18,6 @@ group :development, :test do
     gem 'rb-inotify', :require => false
     gem 'rb-fsevent', :require => false
     gem 'rb-fchange', :require => false
-    gem 'win32console'
     gem 'rb-notifu'
     gem 'guard-spork' #, '1.2.0'
     gem 'spork' #, '0.9.2'

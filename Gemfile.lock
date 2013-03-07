@@ -119,6 +119,7 @@ GEM
     multi_json (1.5.0)
     nokogiri (1.5.6)
     nokogiri (1.5.6-x86-mingw32)
+    pg (0.12.2)
     pg (0.12.2-x86-mingw32)
     polyglot (0.3.3)
     pry (0.9.10)
@@ -212,12 +213,12 @@ GEM
     will_paginate (3.0.3)
     win32-process (0.7.0)
       ffi (>= 1.0.0)
-    win32console (1.3.2)
     win32console (1.3.2-x86-mingw32)
     xpath (0.1.4)
       nokogiri (~> 1.3)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -249,4 +250,3 @@ DEPENDENCIES
   thin
   uglifier (= 1.2.3)
   will_paginate (= 3.0.3)
-  win32console
