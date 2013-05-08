@@ -10,7 +10,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
     gem 'sqlite3', '1.3.5'
-    gem 'rspec-rails' #, '2.9.0'
+    gem 'rspec-rails', '2.9.0'
     gem 'thin'
     gem 'better_errors'
     gem 'binding_of_caller'
@@ -19,8 +19,8 @@ group :development, :test do
     gem 'rb-fsevent', :require => false
     gem 'rb-fchange', :require => false
     gem 'rb-notifu'
-    gem 'guard-spork' #, '1.2.0'
-    gem 'spork' #, '0.9.2'
+    gem 'guard-spork', '1.2.0'
+    gem 'spork', '0.9.2'
 end
 
 # Gems used only for assets and not required
