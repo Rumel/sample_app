@@ -21,6 +21,7 @@ group :development, :test do
     gem 'rb-notifu'
     gem 'guard-spork', '1.2.0'
     gem 'spork', '0.9.2'
+    gem 'sextant'
 end
 
 # Gems used only for assets and not required
